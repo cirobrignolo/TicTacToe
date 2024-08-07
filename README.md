@@ -13,7 +13,7 @@ This is a REST API for playing Tic-Tac-Toe against a computer.
     ```bash
     python manage.py runserver
     ```
-
+    
 ## API Endpoints
 
 - `POST /api/games/`: Create a new game.
@@ -45,9 +45,8 @@ The first hour was spent thinking about the game logic and overall structure. Th
 ## Tests
 
 There are test for models, serializers and views. To run the test use the command:
-    ```bash
-    python manage.py runserver
-    ```
+
+    python manage.py test
 
 ## Feedback
 
