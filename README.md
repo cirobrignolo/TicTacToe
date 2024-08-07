@@ -1,4 +1,4 @@
-# Tic-Tac-Toe REST API
+# Tic-Tac-Toe
 
 This is a REST API for playing Tic-Tac-Toe against a computer.
 
@@ -31,7 +31,7 @@ The first hour was spent thinking about the game logic and overall structure. Th
 
 - The opponent makes random moves.
 - The game logic is implemented in the `logic.py` file.
-- The game and move data are stored using Django's ORM.
+- The game and movement data are stored using Django's ORM.
 
 ## Trade-offs
 
@@ -44,10 +44,10 @@ The first hour was spent thinking about the game logic and overall structure. Th
 
 ## Tests
 
-There are test for models, serielizers and views. To run the test use the command
+There are test for models, serializers and views. To run the test use the command
     ```bash
-     python manage.py test
-     ```
+    python manage.py test
+    ```
 
 ## Feedback
 
