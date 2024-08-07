@@ -8,8 +8,13 @@ This is a REST API for playing Tic-Tac-Toe against a computer.
     ```bash
     pip install -r requirements.txt
     ```
+    
+2. Run the migration:
+     ```bash
+    python manage.py migrate
+    ```
 
-2. Run the application:
+3. Run the application:
     ```bash
     python manage.py runserver
     ```
