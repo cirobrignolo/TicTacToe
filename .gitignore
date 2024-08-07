@@ -1,0 +1,5 @@
+db.sqlite3
+game/__pycache__/
+game/migrations/__pycache__/
+game/tests/__pycache__/
+tic_tac_toe/__pycache__/
