@@ -44,9 +44,9 @@ The first hour was spent thinking about the game logic and overall structure. Th
 
 ## Tests
 
-There are test for models, serializers and views. To run the test use the command
+There are test for models, serializers and views. To run the test use the command:
     ```bash
-    python manage.py teat
+    python manage.py runserver
     ```
 
 ## Feedback
